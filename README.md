@@ -116,4 +116,4 @@ This project exists thanks to all the people who contribute.
 
 ## License
 
-[MIT](LICENSE) © DC-Melo
+[MIT](LICENSE) © DC-Melo王江
