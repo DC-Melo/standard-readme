@@ -94,7 +94,7 @@ $ standard-readme-spec
 
 ## 维护者
 
-[@RichardLitt](https://github.com/RichardLitt)。
+[@DC-Melo王江](https://github.com/DC-Melo)。
 
 ## 如何贡献
 
@@ -111,4 +111,4 @@ $ standard-readme-spec
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © DC-Melo王江
