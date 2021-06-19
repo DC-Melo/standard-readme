@@ -156,3 +156,11 @@ $ standard-readme-spec
 
 如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 wangjiang@alumni.tongji.edu.com 。
 ![DC_wechat_pay](readme_files/dc_wechat_pay.png) ![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
+
+ <img src="readme_files/dc_wechat_pay.png" width = "300" height = "200" alt="图片名称" align=center />
+ <img src="readme_files/dc_bitcoin.png" width = "300" height = "200" alt="图片名称" align=center />
+
+<div align="center">
+<img src="readme_files/dc_wechat_pay.png" height="330" width="190" >
+<img src="readme_files/dc_bitcoin.png" height="330" width="190" >
+ </div>
