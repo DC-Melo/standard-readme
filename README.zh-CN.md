@@ -152,13 +152,13 @@ $ standard-readme-spec
 
 ## 关于我
 
-如果对你有帮助，请 star 一下，然后 follow 我，给我增加一下分享动力，谢谢！
-
-如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 wangjiang@alumni.tongji.edu.com 。
-![DC_wechat_pay](readme_files/dc_wechat_pay.png) ![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
-
-
+如果你喜欢我的项目，请在对应的项目右上角 "Star" 一下。你的支持是我最大的鼓励！ ^^ 你也还可以扫描下面的二维码，对作者进行打赏。
+If you like my project, "Star" in the corresponding project right corner, please. Your support is my biggest encouragement! ^^ You can also scan the qr code below or Donate to this project using Paypal, donation to Author.
 <div align="center">
 <img src="readme_files/dc_wechat_pay.png" height="330" >
+<img src="readme_files/dc_ali_pay.png" height="330" >
 <img src="readme_files/dc_bitcoin.png" height="330" >
 </div>
+如果在捐赠留言中备注名称，将会被记录到列表中~ 如果你也是github开源作者，捐赠时可以留下github项目地址或者个人主页地址，链接将会被添加到列表中起到互相推广的作用
+If you comment on the name in the donation message, it will be recorded in the list. ~If you are also an open source author of github, you can leave the GitHub project address or personal home page address when donating. Links will be added to the list to promote each other.
+捐赠列表(Donation list)
