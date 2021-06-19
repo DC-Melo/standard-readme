@@ -155,5 +155,4 @@ $ standard-readme-spec
 如果对你有帮助，请 star 一下，然后 follow 我，给我增加一下分享动力，谢谢！
 
 如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 wangjiang@alumni.tongji.edu.com 。
-![DC_wechat_pay](readme_files/dc_wechat_pay.png) 
-![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
+![DC_wechat_pay](readme_files/dc_wechat_pay.png) ![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 

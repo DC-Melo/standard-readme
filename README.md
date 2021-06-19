@@ -203,5 +203,4 @@ This project exists thanks to all the people who contribute.
 
 ## About Me
 
-![DC_wechat_pay](readme_files/dc_wechat_pay.png) 
-![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
+![DC_wechat_pay](readme_files/dc_wechat_pay.png) ![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
