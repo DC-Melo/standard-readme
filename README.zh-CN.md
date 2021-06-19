@@ -52,6 +52,42 @@ README 文件是人们通常最先看到的第一个东西。它应该告诉人�
 
 ## 安装
 
+编译安装环境
+```sh
+$ uname -a
+Linux wtdcserver 5.4.0-73-generic #82~18.04.1-Ubuntu SMP Fri Apr 16 15:10:02 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+$ java -version
+
+java version "13.0.1" 2019-10-15
+Java(TM) SE Runtime Environment (build 13.0.1+9)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
+
+$ gradle -version
+------------------------------------------------------------
+Gradle 7.0.2
+------------------------------------------------------------
+
+Build time:   2021-05-14 12:02:31 UTC
+Revision:     1ef1b260d39daacbf9357f9d8594a8a743e2152e
+
+Kotlin:       1.4.31
+Groovy:       3.0.7
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          13.0.1 (Oracle Corporation 13.0.1+9)
+OS:           Linux 5.4.0-73-generic amd64
+```
+![enviroment](readme_files/enviroment.png)
+
+2. 克隆项目并进入项目
+
+```sh
+$ git clone https://gitee.com/dc-melo/standard-readme.git
+OR
+$ git clone https://github.com/DC-Melo/standard-readme.git
+$ cd standard-readme
+```
+
 这个项目使用 [node](http://nodejs.org) 和 [npm](https://npmjs.com)。请确保你本地安装了它们。
 
 ```sh
@@ -94,7 +130,8 @@ $ standard-readme-spec
 
 ## 维护者
 
-[@DC-Melo王江](https://github.com/DC-Melo)。
+[@DC-Melo王江](https://github.com/DC-Melo)
+[@DC-Melo王江](https://gitee.com/DC-Melo)
 
 ## 如何贡献
 
@@ -112,3 +149,11 @@ $ standard-readme-spec
 ## 使用许可
 
 [MIT](LICENSE) © DC-Melo王江
+
+## 关于我
+
+如果对你有帮助，请 star 一下，然后 follow 我，给我增加一下分享动力，谢谢！
+
+如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 wangjiang@alumni.tongji.edu.com 。
+![DC_wechat_pay](readme_files/dc_wechat_pay.png) 
+![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 

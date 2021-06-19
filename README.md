@@ -1,6 +1,6 @@
 # DC Standard Readme
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![](https://img.shields.io/badge/platform-Android-brightgreen.svg) ![](https://img.shields.io/badge/language-java-yellow.svg) ![](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
 
 A standard style for README files
 
@@ -16,6 +16,20 @@ This repository contains:
 
 Standard Readme is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
 
+```mermaid
+graph LR
+    start[开始] --> input[输入A,B,C]
+    input --> conditionA{A是否大于B}
+    conditionA --> |YES|conditionC{A是否大于C}
+    conditionA -- NO --> conditionB{B是否大于C}
+    conditionC -- YES --> printA[输出A]
+    conditionC -- NO --> printC[输出C]
+    conditionB -- YES --> printB[输出B]
+    conditionB -- NO --> printC[输出C]
+    printA --> stop[结束]
+    printC --> stop
+    printB --> stop
+```
 
 ## Table of Contents
 
@@ -56,7 +70,73 @@ The goals for this repository are:
 4. A **generator** that can be used to quickly scaffold out new READMEs. See [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme).
 5. A **compliant badge** for users. See [the badge](#badge).
 
+```mermaid
+graph LR
+    start[开始] --> input[输入A,B,C]
+    input --> conditionA{A是否大于B}
+    conditionA -- YES --> conditionC{A是否大于C}
+    conditionA -- NO --> conditionB{B是否大于C}
+    conditionC -- YES --> printA[输出A]
+    conditionC -- NO --> printC[输出C]
+    conditionB -- YES --> printB[输出B]
+    conditionB -- NO --> printC[输出C]
+    printA --> stop[结束]
+    printC --> stop
+    printB --> stop
+```
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John:hello John
+    loop healthcheck
+        John-->>John:fight against
+    end
+    Note right of John:rational
+
+    John->>Alice:great!
+    John->>Bob:how about you
+    Bob->>John:good!
+
+```
 ## Install
+
+1. Enviroment
+```sh
+$ uname -a
+Linux wtdcserver 5.4.0-73-generic #82~18.04.1-Ubuntu SMP Fri Apr 16 15:10:02 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+$ java -version
+
+java version "13.0.1" 2019-10-15
+Java(TM) SE Runtime Environment (build 13.0.1+9)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
+
+$ gradle -version
+------------------------------------------------------------
+Gradle 7.0.2
+------------------------------------------------------------
+
+Build time:   2021-05-14 12:02:31 UTC
+Revision:     1ef1b260d39daacbf9357f9d8594a8a743e2152e
+
+Kotlin:       1.4.31
+Groovy:       3.0.7
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          13.0.1 (Oracle Corporation 13.0.1+9)
+OS:           Linux 5.4.0-73-generic amd64
+```
+
+![Enviroment](readme_files/enviroment.png) 
+
+2. Clone code and change directories
+
+```sh
+$ git clone https://gitee.com/dc-melo/standard-readme.git
+OR
+$ git clone https://github.com/DC-Melo/standard-readme.git
+$ cd standard-readme
+```
 
 This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
 
@@ -78,6 +158,8 @@ $ standard-readme-spec
 To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
 ## Badge
+[![Build Status](https://travis-ci.org/yeungeek/monkey-android.svg?branch=master)](https://travis-ci.org/yeungeek/monkey-android)
+[![Coverage Status](https://coveralls.io/repos/github/yeungeek/monkey-android/badge.svg?branch=master)](https://coveralls.io/github/yeungeek/monkey-android?branch=master)
 
 If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
@@ -100,7 +182,8 @@ To see how the specification has been applied, see the [example-readmes](example
 
 ## Maintainers
 
-[@DC-Melo](https://github.com/DC-Melo).
+[@DC-Melo](https://github.com/DC-Melo)
+[@DC-Melo](https://gitee.com/DC-Melo)
 
 ## Contributing
 
@@ -117,3 +200,8 @@ This project exists thanks to all the people who contribute.
 ## License
 
 [MIT](LICENSE) © DC-Melo王江
+
+## About Me
+
+![DC_wechat_pay](readme_files/dc_wechat_pay.png) 
+![DC_bitcoin_pay](readme_files/dc_bitcoin.png) 
